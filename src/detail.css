@@ -1,0 +1,36 @@
+.post-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: left;
+    margin: 9px;
+    padding: 9px;
+    border-radius: 5px;
+    width: 50%;
+}
+.post>h4{
+    text-align: left;
+    margin: 10px;
+}
+.post-header>button{
+    width: 10vw;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.comment{
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(228, 225, 225);
+    border-radius: 5px;
+    width: 40%;
+    margin: 10px;
+    align-items: left;
+    transition: .3s ease-in-out;
+}
+.comment:hover{
+    background-color: rgb(67, 65, 65);
+    color: white;
+}
